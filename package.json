@@ -1,9 +1,12 @@
 {
-	"name": "cinovo-logger",
+	"name": "cinovo-logger-console",
 	"version": "0.0.1",
-	"description": "Logger",
+	"description": "Console Endpoint for cinovo-logger",
 	"keywords": [
-		"logger"
+		"logger",
+		"endpoint",
+		"console",
+		"cinovo-logger"
 	],
 	"author": {
 		"name": "Michael Wittig",
@@ -17,7 +20,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/cinovo/node-logger.git"
+		"url": "https://github.com/cinovo/node-logger-cinovo.git"
 	},
 	"dependencies": {
 		"cinovo-logger": "0.0.x"
@@ -32,6 +35,6 @@
 	},
 	"readmeFilename": "README.md",
 	"bugs": {
-		"url": "https://github.com/cinovo/node-logger/issues"
+		"url": "https://github.com/cinovo/node-logger-cinovo/issues"
 	}
 }
