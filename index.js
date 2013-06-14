@@ -31,7 +31,7 @@ ConsoleEndpoint.prototype.log = function(log, errCallback) {
 	errCallback();
 };
 
-modue.exports = function(debug, info, error, critical) {
+exports = function(debug, info, error, critical) {
 	return new ConsoleEndpoint(debug, info, error, critical);
 };
 
