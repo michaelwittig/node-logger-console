@@ -1,6 +1,6 @@
 {
 	"name": "cinovo-logger-console",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"description": "Console Endpoint for cinovo-logger",
 	"keywords": [
 		"logger",
@@ -20,7 +20,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/cinovo/node-logger-cinovo.git"
+		"url": "https://github.com/cinovo/node-logger-console.git"
 	},
 	"dependencies": {
 		"cinovo-logger": "0.0.x",
@@ -36,6 +36,6 @@
 	},
 	"readmeFilename": "README.md",
 	"bugs": {
-		"url": "https://github.com/cinovo/node-logger-cinovo/issues"
+		"url": "https://github.com/cinovo/node-logger-console/issues"
 	}
 }
