@@ -52,7 +52,7 @@ Now you can log to console endpoint.
 
 ## API
 
-### (debug, info, error, critial, region)
+### (debug, info, error, critial)
 
 Creates a console Endpoint.
 
