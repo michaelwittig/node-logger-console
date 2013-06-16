@@ -1,12 +1,10 @@
 {
 	"name": "cinovo-logger-console",
-	"version": "0.0.7",
-	"description": "Console Endpoint for cinovo-logger",
+	"version": "0.0.8",
+	"description": "Console endpoint for cinovo-logger.",
 	"keywords": [
 		"logger",
-		"endpoint",
-		"console",
-		"cinovo-logger"
+		"console"
 	],
 	"author": {
 		"name": "Michael Wittig",
