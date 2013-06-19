@@ -54,9 +54,11 @@ Now you can log to console endpoint.
 
 ### (debug, info, error, critial)
 
-Creates a console Endpoint.
+Sync creates a console Endpoint.
 
 * `debug`: Boolean - true if the endpoint should log debug level
 * `info`: Boolean - true if the endpoint should log info level
 * `error`: Boolean - true if the endpoint should log error level
 * `critical`: Boolean - true if the endpoint should log critical level
+
+`return`: Endpoint - Endpoint - use the endpoint like this logger.append(endpoint)
