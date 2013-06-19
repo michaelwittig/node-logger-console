@@ -1,6 +1,6 @@
 {
 	"name": "cinovo-logger-console",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"description": "Console endpoint for cinovo-logger.",
 	"keywords": [
 		"logger",
@@ -21,7 +21,7 @@
 		"url": "https://github.com/cinovo/node-logger-console.git"
 	},
 	"dependencies": {
-		"cinovo-logger": "0.1.x",
+		"cinovo-logger": "0.2.x",
 		"cli-color": "0.2.2"
 	},
 	"devDependencies": {
