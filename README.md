@@ -62,3 +62,9 @@ Sync creates a console Endpoint.
 * `critical`: Boolean - true if the endpoint should log critical level
 
 `return`: Endpoint - Endpoint - use the endpoint like this logger.append(endpoint)
+
+### Events
+
+#### stop()
+
+When the endpoint is stopped.

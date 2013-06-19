@@ -38,7 +38,11 @@ ConsoleEndpoint.prototype.log = function(log, errCallback) {
 	errCallback();
 };
 ConsoleEndpoint.prototype.stop = function(log, errCallback) {
-	errCallback();
+	try {
+		errCallback();
+	} finally  {
+		this.emit("stop");
+	}
 };
 
 module.exports = function(debug, info, error, critical) {
