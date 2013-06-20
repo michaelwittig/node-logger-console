@@ -37,7 +37,7 @@ ConsoleEndpoint.prototype.log = function(log, errCallback) {
 	}
 	errCallback();
 };
-ConsoleEndpoint.prototype.stop = function(log, errCallback) {
+ConsoleEndpoint.prototype.stop = function(errCallback) {
 	try {
 		errCallback();
 	} finally  {
