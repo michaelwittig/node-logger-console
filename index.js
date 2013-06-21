@@ -18,7 +18,7 @@ function getColor(level) {
 }
 
 function ConsoleEndpoint(debug, info, error, critial) {
-	logger.Endpoint.call(this, debug, info, error, critial);
+	logger.Endpoint.call(this, debug, info, error, critial, "console");
 }
 util.inherits(ConsoleEndpoint, logger.Endpoint);
 ConsoleEndpoint.prototype.log = function(log, errCallback) {
