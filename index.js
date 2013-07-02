@@ -23,7 +23,7 @@ function ConsoleEndpoint(debug, info, error, critial) {
 util.inherits(ConsoleEndpoint, logger.Endpoint);
 ConsoleEndpoint.prototype.log = function(log, errCallback) {
 	var color = getColor(log.level);
-	var data = log.date.toUTCString() + " " + color(log.level) + ": ";
+	var data = log.date.toString() + " " + color(log.level) + ": ";
 	if (log.fullOrigin !== undefined) {
 		data += "(" + log.origin + " | " + log.fullOrigin.file + "[" + log.fullOrigin.fn + "]:" + log.fullOrigin.line + ") ";
 	} else if (log.origin !== undefined) {
