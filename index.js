@@ -1,6 +1,6 @@
 var util = require("util"),
 	clc = require("cli-color"),
-	logger = require("cinovo-logger");
+	lib = require("cinovo-logger-lib");
 
 function getColor(level) {
 	switch(level) {
@@ -18,10 +18,10 @@ function getColor(level) {
 }
 
 function ConsoleEndpoint(debug, info, error, critial) {
-	logger.Endpoint.call(this, debug, info, error, critial, "console");
+	lib.Endpoint.call(this, debug, info, error, critial, "console");
 }
-util.inherits(ConsoleEndpoint, logger.Endpoint);
-ConsoleEndpoint.prototype.log = function(log, errCallback) {
+util.inherits(ConsoleEndpoint, lib.Endpoint);
+ConsoleEndpoint.prototype._log = function(log, callback) {
 	var color = getColor(log.level);
 	var data = log.date.toString() + " " + color(log.level) + ": ";
 	if (log.fullOrigin !== undefined) {
@@ -35,18 +35,12 @@ ConsoleEndpoint.prototype.log = function(log, errCallback) {
 	} else {
 		console.log(data);
 	}
-	errCallback();
+	callback();
 };
-ConsoleEndpoint.prototype.stop = function(errCallback) {
-	try {
-		errCallback();
-	} finally  {
-		this.emit("stop");
-	}
+ConsoleEndpoint.prototype._stop = function(callback) {
+	callback();
 };
 
 module.exports = function(debug, info, error, critical) {
 	return new ConsoleEndpoint(debug, info, error, critical);
 };
-
-
