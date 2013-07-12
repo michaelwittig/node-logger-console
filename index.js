@@ -30,7 +30,7 @@ ConsoleEndpoint.prototype._log = function(log, callback) {
 		data += "(" + log.origin + ") ";
 	}
 	data += log.message;
-	if (log.metadata) {
+	if (log.metadata !== undefined) {
 		console.log(data, log.metadata);
 	} else {
 		console.log(data);
