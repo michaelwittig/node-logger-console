@@ -31,7 +31,7 @@ ConsoleEndpoint.prototype._log = function(log, callback) {
 	}
 	data += log.message;
 	if (log.metadata !== undefined) {
-		console.log(data, log.metadata);
+		console.log(data, util.inspect(log.metadata, {depth: null}));
 	} else {
 		console.log(data);
 	}
