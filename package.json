@@ -1,6 +1,6 @@
 {
 	"name": "cinovo-logger-console",
-	"version": "0.4.3",
+	"version": "0.4.4",
 	"description": "Console endpoint for cinovo-logger.",
 	"keywords": [
 		"logger",
@@ -25,14 +25,14 @@
 		"url": "https://github.com/cinovo/node-logger-console.git"
 	},
 	"dependencies": {
-		"cinovo-logger-lib": "0.4.x",
-		"cli-color": "0.2.2"
+		"cinovo-logger-lib": ">=0.4.3 <0.5.0",
+		"cli-color": "0.2.3"
 	},
 	"devDependencies": {
-		"mocha": "1.12.0",
-		"jslint": "0.1.9",
-		"madge": "0.1.4",
-		"npmedge": "0.1.3",
+		"mocha": "1.13.0",
+		"jslint": "0.2.0",
+		"madge": "0.1.7",
+		"npmedge": "0.1.4",
 		"assert-plus": "0.1.4"
 	},
 	"main": "index",
