@@ -8,9 +8,9 @@ function getColor(level) {
 			return clc.blue;
 		case "info":
 			return clc.red.yellow;
-		case "err":
+		case "error":
 			return clc.red.bold;
-		case "crit":
+		case "critical":
 			return clc.red.bold;
 		default:
 			return clc.white;

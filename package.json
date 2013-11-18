@@ -1,6 +1,6 @@
 {
 	"name": "cinovo-logger-console",
-	"version": "0.4.4",
+	"version": "0.4.5",
 	"description": "Console endpoint for cinovo-logger.",
 	"keywords": [
 		"logger",
@@ -29,8 +29,8 @@
 		"cli-color": "0.2.3"
 	},
 	"devDependencies": {
-		"mocha": "1.13.0",
-		"jslint": "0.2.0",
+		"mocha": "1.14.0",
+		"jslint": "0.2.4",
 		"madge": "0.1.7",
 		"npmedge": "0.1.4",
 		"assert-plus": "0.1.4"
