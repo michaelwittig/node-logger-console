@@ -12,6 +12,7 @@
 
 [![Build Status](https://secure.travis-ci.org/cinovo/node-logger-console.png)](http://travis-ci.org/cinovo/node-logger-console)
 [![NPM version](https://badge.fury.io/js/cinovo-logger-console.png)](http://badge.fury.io/js/cinovo-logger-console)
+[![NPM dependencies](https://david-dm.org/cinovo/node-logger-console.png)](https://david-dm.org/cinovo/node-logger-console)
 
 # cinovo-logger-console
 
